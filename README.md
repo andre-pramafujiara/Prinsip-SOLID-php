@@ -1,1 +1,1 @@
-# Prinsip-SOLID-php
+# Single-Responsiblity-SOLID-Principles
