@@ -1,4 +1,4 @@
 # Single-Responsiblity-SOLID-Principles
-Nama  : Andre Pramafujiara
-NIM   : 1900018204
+Nama  : Andre Pramafujiara <br>
+NIM   : 1900018204 <br>
 Kelas : D
