@@ -1,0 +1,18 @@
+1.	berdasarkan prinsip SOLID, pengertian dan keuntungan dari penerapan prinsip berikut pada pengemabngan perakngat lunak berikut
+a.	prinsip single responsibility
+1)	pengertian
+prinsip single responsibility adalah sebuah kelas atau sebuah komponen itu hanya boleh punya satu alasan untuk diubah, kenapa komponen diubah ?, karena dia cuman memiliki satu tugas yang sangat spesifik dan ketika tugasnya dibuah maka dia juga berubah, dan apabila itu bukan tugasnya makan dia tidak akan berubah
+2)	keuntungan
+•	Reuse, lebih mudah untuk mendaya-guna kode program
+•	Clarity, kode yang kita menjadi sangat jelas karena ditulis hanya focus pada satu hal
+•	Naming, tentu dengan hanya berfokus pada satu hal, penamaan class jadi lebih gampang.
+•	Readability, karena berkaitan dengan Clarity dan Naming, maka menjadi sangat membantu dalam pembacaan kode program
+•	Reduced Coupling, menurunkan tingkat kebergantungan antar class. Semakin tinggi kebergantungan, semakin susah untuk dimodifikasi
+
+b.	prinsip open/closed
+1)	pengertian
+prinsip ini menganjurkan kita supaya yang namanya sebuah class itu ada closed untuk modification dan open untuk extension, maksudnya apa jadi kalau kita punya class itu sebaknya tidak bisa diubah-ubah kalau kita ingin menambahkan satu buah behavior atau fitur sebaiknya kita menambahkan fiturnya dan bukan mengubah class sebelumnya, atau dibuat terpisah dengan class yang sudah ada sebelumnya agar tidak mengganggu class yang sudah ada. Maksudnya, sebuah entitas sebaiknya bersifat terbuka untuk diperluas, sehingga sebuah perilaku (method) dapat diubah dengan cara menambahkan kode program baru.Sedangkan untuk kode sumber yang sudah ada, sedapat mungkin tertutup atau setidaknya jarang sekali untuk perlu memodifikasi source code perilaku yang sudah ada.
+
+2)	Keuntungan
+•	Membuat code yang kita buat menjadi reusable (dapat digunakan berkali-kali).
+•	Mempermudah maintenance (pemeliharaan) code yang sudah ada. 
